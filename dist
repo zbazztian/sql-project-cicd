@@ -153,6 +153,28 @@
           ],
           "ruleId": "Microsoft.Rules.Data.SR0007",
           "ruleIndex": 0
+        },
+        {
+          "level": "warning",
+          "message": {
+            "text": "Nullable columns can cause final results to be evaluated as NULL for the predicate."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/actions-runner/_work/Magellan-WW-Synapse/Magellan-WW-Synapse/somesqlfile.sql",
+                  "index": 0
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 12
+                }
+              }
+            }
+          ],
+          "ruleId": "Microsoft.Rules.Data.SR0007",
+          "ruleIndex": 0
         }
       ]
     }
